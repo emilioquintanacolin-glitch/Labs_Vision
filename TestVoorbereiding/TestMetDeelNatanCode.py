@@ -46,8 +46,8 @@ def calibrate_mm_pixel(img_path, board_dims, square_mm, save_path):
 
 
 scale = calibrate_mm_pixel(
-    'phonecamera.jpg',
-    (13, 9),
-    20,
-    'phonecamera_annotated.jpg'
+    'test.png',
+    (7, 5),
+    19,
+    'test_annotated.jpg'
 )
